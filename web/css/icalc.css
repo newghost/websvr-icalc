@@ -1,0 +1,115 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .lot-ui td,
+  .lot-ui th,
+  .lot-ui .tree a {
+    font-size: 14px;
+  }
+}
+
+/*Error Message*/
+label.error {
+  background-color: #FFFFFF;
+  border: 1px solid #999999;
+  color: #FF0000;
+  padding: 4px 0 6px;
+  margin: 40px 0;
+}
+
+label.error:before {
+  content: "\95ed";
+  font-family: 'fontello';
+  font-size: 28px;
+  margin: 0 10px;
+  position: relative;
+  top: 2px;
+}
+
+/*custom override*/
+.lot-ui #lottery > ul .header {
+  background-color: #FFFFFF;
+  border-bottom: 2px solid #000000;
+  color: #000000;
+  font-size: 24px;
+}
+
+.lot-ui #lottery > ul .header a{
+  color: #000;
+}
+
+#lottery .selected .footer {
+  border-top: 2px solid #fff;
+}
+
+.lot-ui .footer [class^='icon-'] {
+  color: #fff;
+  font-size: 16px;
+}
+
+.lot-ui #lottery > ul .icon-left:before, 
+.lot-ui #lottery > ul .icon-right:before {
+  margin-right: 4px;
+  position: static;
+}
+
+.lot-ui #lottery > ul .icon-left,
+.lot-ui #lottery > ul .icon-right {
+  background-color: #000000;
+  color: #FFFFFF !important;
+  display: block;
+  float: left;
+  font-size: 24px;
+  margin: -13px 0 0;
+  padding: 0 14px 10px;
+}
+
+.lot-ui #lottery > ul .icon-right {
+  float: right;
+}
+
+/*modules*/
+#login .body {
+  margin: 0 20px;
+}
+
+
+
+#login .regist {
+  color: #00f;
+}
+
+
+#regist .body {
+  margin: 0 20px;
+}
+
+.account {
+  border: 1px solid #000;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.account > h3 {
+  background-color: #FFFFFF;
+  line-height: 2em;
+  padding: 0 1em 0 0.4em;
+}
+
+.account > h3 b {
+  float: right;
+}
+
+.account .message {
+  background-color: #000000;
+  color: #FFFFFF;
+  font-weight: 700;
+  padding: 0.6em;
+}
+
+.account table {
+  padding: 0.2em;
+}
+
+.account.selected,
+.account.selected > h3 {
+  background-color: #FFFF00;
+}
