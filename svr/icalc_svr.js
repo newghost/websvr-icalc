@@ -1,7 +1,7 @@
 //import namespace
 var WebSvr  = require("websvr")
-  //, minidb  = require("./minidb").init("./data");
-  , minidb = require("./icalc_db");
+  , minidb  = require("./minidb").init("./data");
+  //, minidb = require("./icalc_db");
 
 
 var Utility = {
